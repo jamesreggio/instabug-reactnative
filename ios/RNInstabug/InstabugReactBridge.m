@@ -481,7 +481,7 @@ RCT_EXPORT_METHOD(isRunningLive:(RCTResponseSenderBlock)callback) {
 
 + (BOOL)requiresMainQueueSetup
 {
-    return YES;
+    return NO;
 }
 
 + (BOOL)iOSVersionIsLessThan:(NSString *)iOSVersion {
